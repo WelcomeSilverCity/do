@@ -1,4 +1,4 @@
-package initialize
+package do
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"zg6-demo/shop_srv/goods_srv/global"
+	"github.com/WelcomeSilverCity/do/global"
 )
 
 func InitConfig() {

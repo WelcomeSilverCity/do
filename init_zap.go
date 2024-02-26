@@ -1,4 +1,4 @@
-package initialize
+package do
 
 import "go.uber.org/zap"
 
