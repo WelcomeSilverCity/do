@@ -11,9 +11,9 @@ import (
 	"github.com/WelcomeSilverCity/do/global"
 )
 
-func InitConfig() {
+func InitConfig(filePath string) {
 	v := viper.New()
-	v.SetConfigFile("D:\\zg6-demo\\shop_srv\\user_srv\\config.yaml")
+	v.SetConfigFile(filePath)
 	err := v.ReadInConfig()
 	if err != nil {
 		panic(err)
