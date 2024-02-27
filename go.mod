@@ -6,6 +6,7 @@ require (
 	github.com/anaskhan96/go-password-encoder v0.0.0-20201010210601-c765b799fd72
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/hashicorp/consul/api v1.27.0
+	github.com/nacos-group/nacos-sdk-go v1.1.4
 	github.com/olivere/elastic/v7 v7.0.32
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/viper v1.18.2
@@ -51,5 +52,6 @@ require (
 	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
